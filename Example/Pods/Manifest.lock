@@ -1,0 +1,14 @@
+PODS:
+  - STMTestFramework (1.1.0):
+    - STMTestFramework/iphoneos (= 1.1.0)
+  - STMTestFramework/iphoneos (1.1.0)
+
+DEPENDENCIES:
+  - STMTestFramework
+
+SPEC CHECKSUMS:
+  STMTestFramework: 13bbd0409d1342a17f55beee6b5c02623bc94373
+
+PODFILE CHECKSUM: da85916a45acb48a51b0b0e51bfc4dc2c867c940
+
+COCOAPODS: 1.4.0
