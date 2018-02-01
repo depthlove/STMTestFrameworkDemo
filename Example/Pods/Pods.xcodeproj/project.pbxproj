@@ -20,8 +20,8 @@
 		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		8E327633EEFFAECF4746D70BA851C1FB /* STMTestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = STMTestFramework.framework; path = "Pod/Library/STMTestFramework/Release-universal/STMTestFramework.framework"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B801061A0AEF33C5CC259BE811B799CF /* STMTestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = STMTestFramework.framework; path = "Pod/Library/STMTestFramework/Release-iphoneos/STMTestFramework.framework"; sourceTree = "<group>"; };
 		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,13 +37,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4FE604494FA533492E3556FA451C8478 /* STMTestFramework */ = {
+		280006A14887C69E57C672D226E42F0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ABE716F4E5DCDFA9A7E0C29B4EB081A6 /* iphoneos */,
+				8E327633EEFFAECF4746D70BA851C1FB /* STMTestFramework.framework */,
 			);
-			name = STMTestFramework;
-			path = STMTestFramework;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */ = {
@@ -72,7 +71,7 @@
 		77357FE60D38DC9751011AA0070E4D1D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FE604494FA533492E3556FA451C8478 /* STMTestFramework */,
+				850D02522AA4F1B0474ECC70F59D336C /* STMTestFramework */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -88,12 +87,21 @@
 			);
 			sourceTree = "<group>";
 		};
-		ABE716F4E5DCDFA9A7E0C29B4EB081A6 /* iphoneos */ = {
+		850D02522AA4F1B0474ECC70F59D336C /* STMTestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				DFCDAC7A853EF7B7BBC33017482E5A6C /* Frameworks */,
+				A7ED2645AA2D4D9043F436E65981A0B0 /* universal */,
 			);
-			name = iphoneos;
+			name = STMTestFramework;
+			path = STMTestFramework;
+			sourceTree = "<group>";
+		};
+		A7ED2645AA2D4D9043F436E65981A0B0 /* universal */ = {
+			isa = PBXGroup;
+			children = (
+				280006A14887C69E57C672D226E42F0A /* Frameworks */,
+			);
+			name = universal;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -110,14 +118,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DFCDAC7A853EF7B7BBC33017482E5A6C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B801061A0AEF33C5CC259BE811B799CF /* STMTestFramework.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E9FF6C77EF6D53C41253D64223421BB1 /* Products */ = {
