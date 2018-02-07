@@ -1,15 +1,14 @@
 PODS:
-  - STMTestFramework (1.1.0):
-    - STMTestFramework/universal (= 1.1.0)
-  - STMTestFramework/universal (1.1.0)
+  - STMTestFramework (1.1.2):
+    - STMTestFramework/universal (= 1.1.2)
+  - STMTestFramework/universal (1.1.2)
 
 DEPENDENCIES:
-  - STMTestFramework (from `https://github.com/depthlove/STMTestFramework.git`, branch `stand-by-branch`)
+  - STMTestFramework (from `https://raw.githubusercontent.com/depthlove/STMTestFramework/master/STMTestFramework-Universal.podspec`)
 
 EXTERNAL SOURCES:
   STMTestFramework:
-    :branch: stand-by-branch
-    :git: https://github.com/depthlove/STMTestFramework.git
+    :podspec: https://raw.githubusercontent.com/depthlove/STMTestFramework/master/STMTestFramework-Universal.podspec
 
 CHECKOUT OPTIONS:
   STMTestFramework:
@@ -17,8 +16,8 @@ CHECKOUT OPTIONS:
     :git: https://github.com/depthlove/STMTestFramework.git
 
 SPEC CHECKSUMS:
-  STMTestFramework: 2f64c001875690933ada1fb438d3ef89fe404c14
+  STMTestFramework: 4ba1762bd99062b9be69a12ef37b2665226fe99e
 
-PODFILE CHECKSUM: 90c80bae6fe9ff66abffca0cae909517f281c9bf
+PODFILE CHECKSUM: 521179252d955e5e1619df0d327d394d2545954c
 
 COCOAPODS: 1.4.0
