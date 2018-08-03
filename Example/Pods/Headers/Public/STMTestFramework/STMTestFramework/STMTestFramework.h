@@ -1,1 +1,1 @@
-../../../../STMTestFramework/Pod/Library-Universal/STMTestFramework.framework/Headers/STMTestFramework.h
+../../../../STMTestFramework/Pod/Library/STMTestFramework.framework/Headers/STMTestFramework.h

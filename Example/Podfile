@@ -2,9 +2,9 @@ platform :ios, '8.0'
 inhibit_all_warnings!
 
 target 'Example' do
-#    pod 'STMTestFramework'
+    pod 'STMTestFramework', '1.2.0'
 #    pod 'STMTestFramework', :git => "https://github.com/depthlove/STMTestFramework.git", :branch => "stand-by-branch"
 #    pod 'STMTestFramework', :podspec =>'https://raw.githubusercontent.com/depthlove/STMTestFramework/master/STMTestFramework.podspec'
-    pod 'STMTestFramework', :podspec =>'https://raw.githubusercontent.com/depthlove/STMTestFramework/master/STMTestFramework-Universal.podspec'
+#    pod 'STMTestFramework', :podspec =>'https://raw.githubusercontent.com/depthlove/STMTestFramework/master/STMTestFramework-Universal.podspec'
 end
 
